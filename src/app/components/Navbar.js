@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className=" p-4 text-white">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-xl">
-          <Link href="/home">
+          <Link href="/">
             <svg xmlns="http://www.w3.org/2000/svg" width="255.712" height="46.87" viewBox="0 0 255.712 46.87" fill="white">
               <g id="Group_1" data-name="Group 1" transform="translate(52 459)">
                 <path id="Path_15" data-name="Path 15" d="M783.892,222.331l4.214,7.3h-2.118l-4.178-7.237h-4.026v7.237H775.95V212.31H783.1a5.042,5.042,0,0,1,.787,10.021Zm-6.107-1.122v-7.325h5.32a3.467,3.467,0,0,1,0,6.934l-3.951.038-1.369,1.53v-1.178Z" transform="translate(-717.368 -643.627)" fillRule="evenodd"/>
@@ -29,7 +29,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex space-x-4">
-          <button className="border border-white text-blue-500  py-2 px-8 rounded-full hover:bg-opacity-80 hover:text-white transition duration-300">
+          <button className="border border-white text-blue-500  py-2 px-4 sm:px-8 rounded-full hover:bg-opacity-80 hover:text-white transition duration-300">
             <Link href="/contact" className="text-white hover:text-gray-300">
               Contact Us
             </Link>

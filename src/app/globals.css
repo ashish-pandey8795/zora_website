@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 *{
   margin: 0;
   padding: 0;
@@ -13,6 +15,7 @@ body{
   font-weight: 400;
   font-style: normal;
   height: 100vh;
+  background-color: rgb(229 231 235 );
 }
 
 h1{
